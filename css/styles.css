@@ -2,4 +2,8 @@
 @import "base.css";
 @import "container.css";
 @import "header.css";
-@import "footer.css";
+@import "footer.css"; 
+
+.main {
+	flex-grow: 1;
+}
