@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/swiper-bundle.css" />
 		<link rel="stylesheet" href="css/styles.css" />
 		<title>Leasing From D&M</title>
 	</head>
@@ -37,7 +38,25 @@
 					</div>
 				</div>
 			</header>
-			<main class="main"></main>
+			<main class="main">
+				<section class="top">
+					<div class="container">
+						<h1 class="title">Leasing From D&M</h1>
+						<a href="#" class="top__link">FIND A CAR</a>
+					</div>
+				</section>
+				<div class="slider">
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide" style="background-image: url(images/slide-1.jpg);"></div>
+							<div class="swiper-slide" style="background-image: url(images/slide-2.jpg);"></div>
+							<div class="swiper-slide" style="background-image: url(images/slide-3.jpg);"></div>
+							<div class="swiper-slide" style="background-image: url(images/slide-4.jpg);"></div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</main>
 			<footer class="footer">
 				<div class="container">
 					<nav class="footer__navigation">
@@ -146,5 +165,7 @@
 				</div>
 			</footer>
 		</div>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>

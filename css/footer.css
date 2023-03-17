@@ -10,57 +10,38 @@
 }
 
 .footer__navigation-list {
-	max-width: 225px;
+  max-width: 225px;
 }
 
 .footer__navigation-item + .footer__navigation-item {
-	padding-top: 20px;
+  padding-top: 20px;
 }
 
 .footer__navigation-title {
   font-weight: 700;
   font-size: 24px;
-	padding-bottom: 20px; 
+  padding-bottom: 20px;
 }
 
 .app {
   display: flex;
   justify-content: center;
-	gap: 40px; 
-	margin-bottom: 52px;
-}
-
-.app__item {
-}
-
-.app__item-link {
-}
-
-.app__item-img {
+  gap: 40px;
+  margin-bottom: 52px;
 }
 
 .footer__copy {
-	text-align: center;
-	margin: 0 auto 30px;
-	max-width: 806px;
-	font-size: 12px;
+  text-align: center;
+  margin: 0 auto 30px;
+  max-width: 806px;
+  font-size: 12px;
 }
 
 .footer__copy-text {
-	
-}
-
-.copy__nav {
 }
 
 .copy__nav-list {
   display: flex;
   justify-content: center;
-	gap: 40px;
-}
-
-.copy__nav-item {
-}
-
-.copy__nav-link {
+  gap: 40px;
 }

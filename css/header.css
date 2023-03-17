@@ -2,7 +2,11 @@
   background-color: #151515;
 }
 .header-main {
-  /* background-color: transparent; */
+  background-color: transparent;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
 }
 .header__inner {
   padding-top: 40px;
@@ -15,8 +19,6 @@
 .menu__list {
   display: flex;
   gap: 35px;
-}
-.menu__list-item {
 }
 
 .menu__list-link {
