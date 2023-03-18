@@ -32,15 +32,15 @@
   text-transform: uppercase;
 }
 
-.swiper::after{
-	content: '';
-	background: rgba(21,21,21,.3);
-	position: absolute;
-	z-index: 5;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
+.swiper::after {
+  content: "";
+  background: rgba(21, 21, 21, 0.3);
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .swiper-wrapper {
@@ -60,18 +60,47 @@
   background-color: #151515;
   border-radius: 0;
   opacity: 1;
-} 
+}
 
 .swiper-pagination-bullet-active {
   height: 6px;
   background-color: #fff;
 }
 
-.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-	margin: 0 15px;
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 15px;
 }
 
 .swiper-pagination-bullets,
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-	bottom: 50px;
+  bottom: 50px;
+}
+
+.why-lease {
+  padding: 150px 0;
+}
+
+.why-lease__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px; 
+	text-align: center;
+}
+
+.why-lease__item-img {
+  margin-bottom: 30px;
+  display: inline;
+}
+
+.why-lease__item-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #151515;
+  margin-bottom: 30px;
+}
+
+.why-lease__item-text { 
+	text-align: left;
+
 }
