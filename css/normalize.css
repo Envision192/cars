@@ -28,7 +28,8 @@ h2,
 h3,
 h4,
 p,
-ol[class],
+ol:not([class]),
+ul:not([class]),
 li,
 figure,
 figcaption,
@@ -177,8 +178,8 @@ h6 {
 	font-weight: 400;
 }
 
-ul[class],
-ol[class] {
+ul:not([class]),
+ol:not([class]) {
 	padding: 0;
 }
 
