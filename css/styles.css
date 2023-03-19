@@ -108,18 +108,9 @@
   padding-bottom: 150px;
 }
 
-.container {
-}
-
 .how-does__inner {
   max-width: 600px;
   margin: 0 auto;
-}
-
-.section-title {
-}
-
-.how-does__text {
 }
 
 .how-does__title {
@@ -169,12 +160,6 @@
   padding-bottom: 150px;
 }
 
-.container {
-}
-
-.section-title {
-}
-
 .promo-video__title {
   margin-bottom: 20px;
 }
@@ -182,11 +167,37 @@
 .promo-video__text {
   font-weight: 700;
   font-size: 24px;
-	margin-bottom: 50px;
-	text-align: center;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .promo-video__content {
-	display: block;
-	margin: 0 auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.important {
+	padding-bottom: 150px;
+}
+
+.important__title {
+	margin-bottom: 20px;
+}
+
+.important__text {
+	margin: 0 auto 50px;
+	max-width: 580px;
+}
+
+.important__list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+} 
+
+.important__item-image {
+	margin-bottom: 20px;
+}
+
+.important__item-text { 
+	max-width: 270px;
 }
