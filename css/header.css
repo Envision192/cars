@@ -28,3 +28,7 @@
   line-height: 19px;
   text-transform: uppercase;
 }
+
+.menu__list-link--active{
+	color: #0066FF;
+}
