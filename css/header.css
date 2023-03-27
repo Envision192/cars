@@ -16,6 +16,24 @@
   align-items: flex-end;
 }
 
+.menu__btn{
+	width: 30px;
+	height: 20px;
+	display: none;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.menu__btn span {
+	height: 4px;
+	width: 100%;
+	background-color: #fff;
+}
+
 .menu__list {
   display: flex;
   gap: 35px;

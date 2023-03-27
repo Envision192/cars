@@ -1,6 +1,7 @@
 const tabItem = document.querySelectorAll('.tabs__btn-item');
 const tabContent = document.querySelectorAll('.tabs__content-item');
 
+
 tabItem.forEach(function(elem){
 	elem.addEventListener('click', open);
 });
@@ -21,3 +22,12 @@ function open(event) {
 
 	document.querySelector(`#${button}`).classList.add('tabs__content-item--active');
 } 
+
+
+const menu = document.querySelector('.menu__list');
+const menuBtn = document.querySelector('.menu__btn');
+
+menuBtn.addEventListener('click', () => {
+	menu.classList.toggle('menu__list--active');
+});
+
